@@ -1,6 +1,6 @@
 <?php
 
-namespace ToolsBundle\Traits;
+namespace Nemke\ToolsBundle\Traits;
 
 /**
  * Properties trait that allows for property handling for

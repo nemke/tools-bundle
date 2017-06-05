@@ -1,6 +1,6 @@
 <?php
 
-	namespace ToolsBundle\Traits;
+	namespace Nemke\ToolsBundle\Traits;
 	use Doctrine\ORM\QueryBuilder;
 
 	/**
