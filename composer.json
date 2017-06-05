@@ -1,0 +1,26 @@
+{
+	"name" : "nemke/tools-bundle",
+	"type" : "symfony-bundle",
+	"description" : "Various generic traits and classes for Symfony",
+	"keywords" : [
+		"tools",
+		"symfony"
+	],
+	"homepage" : "https://nemke.info/",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Nemanja Andrejevic",
+			"email" : "andrejevicnemanja@gmail.com",
+			"homepage" : "https://www.nmdesign.rs/"
+		}
+	],
+	"require" : {
+		"symfony/framework-bundle" : ">=2.1"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Nemke\\ToolsBundle" : ""
+		}
+	},
+	"target-dir" : "Nemke/ToolsBundle"
+}
