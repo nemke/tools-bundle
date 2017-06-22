@@ -9,6 +9,8 @@
 	 */
 	trait JsonSerialize
 	{
+	    private $exportNull = false;
+
         /**
          * Serializes all variables in a class
          *
@@ -18,7 +20,12 @@
         {
             $json = [];
             foreach ($this as $key => $value)
+            {
+                if (!$this->exportNull && is_null($value))
+                    continue;
+
                 $json[$key] = $value;
+            }
 
             return $json;
         }
