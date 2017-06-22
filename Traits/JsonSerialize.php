@@ -24,6 +24,9 @@
                 if (!$this->exportNull && is_null($value))
                     continue;
 
+                if ($key === 'exportNull')
+                    continue;
+
                 $json[$key] = $value;
             }
 
